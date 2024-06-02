@@ -1,0 +1,12 @@
+**As a** Tech Support Specialist
+**I need** Way to export all customer funds. 
+**So that** I can filter by funds.
+      
+### Details and Assumptions
+    * Right now, we cannot see or export customer funds from a common location.     
+
+### Acceptance Criteria     
+    gherkin 
+    Given a support specialist is in the control panel
+    When clicks 'Customers > Funds > Export All'
+    Then a spreadsheet with customer names and funds is downloaded.
